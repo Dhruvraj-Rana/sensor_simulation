@@ -1,6 +1,6 @@
 #include "../include/thermo_optical.h"
-#include <stdio.h>  // Fix snprintf error
-#include <stdlib.h> // Fix rand error
+#include <stdio.h>  
+#include <stdlib.h>
 
 void init_thermo_optical(ThermoOpticalSensor *sensor, int id) {
     sensor->id = id;

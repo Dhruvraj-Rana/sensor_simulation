@@ -1,6 +1,6 @@
 #include "../include/thermoresistive.h"
-#include <stdio.h>  // Fix snprintf error
-#include <stdlib.h> // Fix rand error
+#include <stdio.h> 
+#include <stdlib.h>
 
 void init_thermoresistive(ThermoresistiveSensor *sensor, int id) {
     sensor->id = id;

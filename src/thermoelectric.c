@@ -1,6 +1,6 @@
 #include "../include/thermoelectric.h"
-#include <stdio.h>  // Fix snprintf error
-#include <stdlib.h> // Fix rand error
+#include <stdio.h>
+#include <stdlib.h> 
 
 void init_thermoelectric(ThermoelectricSensor *sensor, int id) {
     sensor->id = id;

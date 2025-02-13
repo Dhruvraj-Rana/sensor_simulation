@@ -8,7 +8,7 @@
 #define TE_MIN_TEMP 0
 #define TE_MAX_TEMP 60
 #define TE_ACCURACY 2.5
-#define TE_DRIFT 0.6  // 0.6% per year
+#define TE_DRIFT 0.6  
 
 typedef struct {
     int id;

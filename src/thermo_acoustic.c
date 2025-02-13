@@ -1,6 +1,6 @@
 #include "../include/thermo_acoustic.h"
-#include <stdio.h>  // Fix snprintf error
-#include <stdlib.h> // Fix rand error
+#include <stdio.h>  
+#include <stdlib.h>
 
 void init_thermo_acoustic(ThermoAcousticSensor *sensor, int id) {
     sensor->id = id;
