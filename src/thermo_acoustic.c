@@ -1,4 +1,4 @@
-#include "../include/thermo_acoustic.h"
+#include "../include/LA1_22BCT0101_ta.h"
 #include <stdio.h>  
 #include <stdlib.h>
 

@@ -6,7 +6,7 @@
 #include "../include/thermo_optical.h"
 #include "../include/thermo_acoustic.h"
 
-#define N_READINGS 20
+#define N_READINGS 1200
 
 void log_to_csv(FILE *file, int time, float te_temp, float tr_temp, float to_temp, float ta_temp, float avg_temp, const char *action) {
     fprintf(file, "%d,%.2f,%.2f,%.2f,%.2f,%.2f,%s\n", time, te_temp, tr_temp, to_temp, ta_temp, avg_temp, action);
